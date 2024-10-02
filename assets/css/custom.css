@@ -1,0 +1,195 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width:100vw;
+    height: 100vh;
+    object-fit:cover;
+    object-position:center;
+  }
+  .vlt-section__content.video {
+    position: fixed;
+    bottom: 0;
+    right:0;
+    width: 100vw;
+    background-image: url('../img/home-bg.png');
+  }
+  img.about-img, img.activies-img {
+    max-width: max-content !important;
+    height: 300px;
+  }
+  [data-anchor=About] p.about-us-p {
+    font-size: 0.8rem;
+    color: #b19340;
+  }
+  h3.activies-title, h3.team-title {
+    color: #b19340;
+  }
+  [data-anchor=About] p.about-us-info {
+    font-size: 0.8rem;
+  }
+  .activies-img {
+    border: 1px solid transparent;
+    border-radius: 18px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .consulting {
+    color: #000;
+    background: #b19340;
+    padding: 1px 4px;
+    border:1px solid transparent;
+  }
+  .services-btn {
+    display: inline-block;
+    padding: 0.4rem 1.6rem;
+    line-height: 1.5;
+  }
+  .team .vlt-post--masonry .vlt-post-media img{
+    object-fit: cover;
+  }
+  .vlt-product-hero-title.team {
+    padding-top: 10rem !important;
+  }
+  h3.vlt-post-title {
+    font-size: 1.2rem !important;
+  }
+  /* #003b6b */
+  .vlt-btn.all-btn {
+    border: 1px solid #b19340;
+    background: transparent;
+    color: #b19340;
+    padding: 0.4rem 1.6rem; 
+  }
+  h3.contact-title {
+    font-size: 2rem;
+  }
+#map {
+    flex: 1;
+    height: 650px;
+    width: calc(100% - 350px);
+}
+#sidebar {
+    width: 350px;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+#sidebar h4 {
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #b19340;
+}
+.location-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #b19340;
+}
+.location-item:hover {
+    background: #b19340;
+    color: #fff;
+}
+.network {
+    padding: 20vh 10vw;
+}
+.infobox .infobox-header{
+    color: #003b6b;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.infobox i {
+    color: #003b6b;
+}
+.infobox a {
+    color: #333 !important;
+}
+.infobox a:hover {
+    color: #003b6b !important;
+}
+ol {
+    list-style-type: circle;
+}
+ol li, p.large.attivita {
+    color:rgba(255,255,255,.8);
+    font-size: 1rem;
+    text-align: left !important;
+}
+.vlt-animated-block.team .vlt-experience-block {
+    padding: 1.6875rem 0rem 0.4875rem 1.6875rem !important;
+}
+p.team {
+    font-size: 0.9rem;
+}
+.vlt-animated-block.team p.about-us-p {
+    font-size: 0.9rem !important;
+}
+#location-list {
+    color: #fff;
+}
+.news {
+    height: 500px;
+    width:100vw;
+    object-fit: cover;
+}
+.vlt-project-excerpt {
+    -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+.vlt-project-title {
+    -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0, 0.7);
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index:1;
+}
+.vlt-post-title.news-title {
+    font-size: 2rem;
+}
+.news-paragraph {
+    color: rgba(255,255,255,.8);
+}
+@media(max-width:1199px) {
+    .vlt-navbar .vlt-navbar-logo img {
+        height: 4rem;
+    }
+    .vlt-footer--fixed {
+        background: rgba(0,0,0, 0.7);
+        padding: 1rem;
+    } 
+    .h3, h3, .h1.vlt-large-heading, h1.vlt-large-heading {
+        font-size: 2rem;
+    }
+    .vlt-navbar .vlt-navbar-inner {
+        padding: 1rem;
+        background: rgba(255,255,255, 0.2);
+    }
+    .news { 
+        height: 200px;
+    }
+    .even {
+        background: rgba(0,0,0,0.5);
+    }
+    #sidebar {
+        width: 100%;
+    }
+    #map {
+        width: 100%;
+        height:350px;
+    }
+    #myVideo {
+        top:96px;
+        bottom:59px;
+        height:calc(100vh - 155px);
+        min-height:auto;
+    }
+}
